@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "My_Usart.C": "cpp",
+        "spwm.h": "c",
+        "My_Usart.H": "cpp",
+        "tft_demo.h": "c"
+    }
+}

@@ -1,0 +1,299 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 22 14:22:07 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/keil/CubePreserve/L431_Phase/MDK-ARM
+# default
+SHELL := D:/Microsoft VS Code/Git/bin/sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"C:\\Users\\���ϸ��\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\���ϸ��\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\���ϸ��\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn\\3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"C:\\Users\\���ϸ��\\AppData\\Roaming\\Code\\clp\\1d735750dbb1b9066c7513078396ba0f.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\���ϸ��\OneDrive
+# environment
+PUBLIC = C:\Users\Public
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\user\default\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = D:\Microsoft VS Code
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Java\jdk;C:\Users\���ϸ��\Desktop;D:\;B\�׿�Java������������\ideaIU-2020.2.2.win;\bin;D:;Java\jdk;C:\Users\���ϸ��\Desktop;D:\;B\�׿�Java������������\ideaIU-2020.2.2.win;\jre\bi;";D:\Java\jdk;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Java\bin;C:\Users\���ϸ��\Desktop;D:\;B\�׿�Java������������\ideaIU-2020.2.2.win;C:\Prog;am Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;D:\BaiduNetdiskDownload\mingw64\bin;D:\matlab\runtime\win64;D:\matlab\bin;D:\Microsoft VS Code\Git\cmd;C:\Users\���ϸ��\AppData\Local\activestate\cache\bin;C:\Users\���ϸ��\AppData\Local\ActiveState\StateTool\release\bin;D:\ESP_IDF\PYTHON\Scripts\;D:\ESP_IDF\PYTHON\;C:\Users\���ϸ��\AppData\Local\Microsoft\WindowsApps;D:\Quartus13.1\ModelSim13.1\modelsim_ae\win32aloem;D:\Microsoft VS Code\bin;D:\keil\OpenOCD-20211118-0.11.0\bin;D:\keil\MDK5\gcc-arm-none-eabi-10.3-2021.10\bin;D:\keil\MDK5\gcc-arm-none-eabi-10.3-2021.10\arm-none-eabi\bin;D:\Microsoft VS Code\Git\cmd;D:\Microsoft VS Code\Git\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132910632166866895
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\���ϸ��
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SOPC_KIT_NIOS2 = D:\Quartus13.1\nios2eds
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# automatic
+%F = $(notdir $%)
+# environment
+CLASSPATH = D:\Java\jdk;C:\Users\���ϸ��\Desktop;D:\JB\�׿�Java������������\ideaIU-2020.2.2.win;\lib\dt.jar;D:\Java\jdk;C:\Users\���ϸ��\Desktop;D:\JB\�׿�Java������������\ideaIU-2020.2.2.win;\lib\tools.jar;
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19748_XAJLOSYNCVPOGMZO
+# environment
+COMPUTERNAME = LAPTOP-IO8PF971
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+NVIDIAWHITELISTED = 0x01
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ���ϸ��
+# environment
+MGLS_LICENSE_FILE = D:\Quartus13.1\ModelSim13.1\modelsim_ae\win32aloem\LICENSE.TXT
+# environment
+KMP_DUPLICATE_LIB_OK = TRUE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\���ϸ��\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-IO8PF971
+# environment
+ONEDRIVECONSUMER = C:\Users\���ϸ��\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-IO8PF971
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = D:\Java\jdk;C:\Users\���ϸ��\Desktop;D:\JB\�׿�Java������������\ideaIU-2020.2.2.win;
+# environment
+SHIM_MCCOMPAT = 0x810000001
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := 
+# environment
+ACTEL_FOR_ALTIUM_OVERRIDE = $(subst ,, )
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\���ϸ��\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# environment
+ALTERA_FOR_ALTIUM_OVERRIDE = $(subst ,, )
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\4ead1185aac05cd5ab13f01fd996c796-1.69.2-main-sock
+# environment
+HOMEPATH = \Users\���ϸ��
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\���ϸ��\AppData\Roaming
+# environment
+TEMP = C:\user\default\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = D:\ESP_IDF\Espressif\Espressif
+# environment
+QUARTUS_ROOTDIR = D:\Quartus13.1\quartus
+# automatic
+<F = $(notdir $<)
+# environment
+MKL_SERIAL = YES
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = a502
+# environment
+ADSK_CLM_WPAD_PROXY_CHECK = FALSE
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 19748
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-IO8PF971
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=18/121=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key d:/keil/CubePreserve/L431_Phase/MDK-ARM, mtime 1658411551): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 244 B / avg = 12 B
+# current buf: size = 8162 B / used = 244 B / count = 20 / avg = 12 B
+
+# strcache performance: lookups = 22 / hit rate = 9%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=2/22=9%
+# Finished Make data base on Fri Jul 22 14:22:07 2022
+
+ 
