@@ -110,16 +110,18 @@ int main(void)
  * @brief 开启采集相位
  *   HAL_TIM_IC_Start_IT(&htim15, TIM_CHANNEL_1);    //启动输入捕获
  *   HAL_TIM_IC_Start_IT(&htim15,TIM_CHANNEL_2);
- * 
  */
-//    for(i=0; i<1024; i++) {
-//        sinewave[i]=sin(i/1024.0*2.0*3.1415926)*2048.0+2048.0;	//拉正弦表
-//        sinewave2[i]=(-sin(i/1024.0*2.0*3.1415926)*2048.0)+2047.0;
-//    }
-////		HAL_DAC_Start(&hdac1, DAC_CHANNEL_1);
-//		HAL_TIM_Base_Start(&htim7);
-//    HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1,(uint32_t *)sinewave,1024,DAC_ALIGN_12B_R);
-//    HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_2,(uint32_t *)sinewave2,1024,DAC_ALIGN_12B_R);
+/**
+ * @brief DAC产生正弦波
+ *    for(i=0; i<1024; i++) {
+       sinewave[i]=sin(i/1024.0*2.0*3.1415926)*2048.0+2048.0;	//拉正弦表
+       sinewave2[i]=(-sin(i/1024.0*2.0*3.1415926)*2048.0)+2047.0;
+   }
+//	HAL_DAC_Start(&hdac1, DAC_CHANNEL_1);
+		HAL_TIM_Base_Start(&htim7);
+   HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1,(uint32_t *)sinewave,1024,DAC_ALIGN_12B_R);
+   HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_2,(uint32_t *)sinewave2,1024,DAC_ALIGN_12B_R);
+ */
     /* USER CODE END 2 */
 
     /* Infinite loop */
